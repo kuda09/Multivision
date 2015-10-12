@@ -17,7 +17,7 @@ app.set("views", __dirname + "/server/views/");
 app.set("view engine", "jade");
 app.use(bodyParser());
 app.use(logger("dev"));
-app.get("*", function (request, response) {
+app.get("/", function (request, response) {
 
     response.render("index");
 
