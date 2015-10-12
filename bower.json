@@ -1,0 +1,28 @@
+{
+  "name": "Multivision",
+  "version": "0.0.0",
+  "authors": [
+    "kuda <ku-da@hotmail.co.uk>"
+  ],
+  "description": "Extreme tech training website",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "toastr": "~2.1.2",
+    "angular": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "bootstrap": "~3.3.5"
+  }
+}
