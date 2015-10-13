@@ -6,7 +6,7 @@ angular.module("app", ["ngResource", "ngRoute"])
 
         $routeProvider
             .when("/", {
-                templateUrl: "partials/main",
+                templateUrl: "/partials/main",
                 controller: "MainController"
             })
     })
